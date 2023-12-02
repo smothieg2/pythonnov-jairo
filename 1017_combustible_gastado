@@ -1,0 +1,8 @@
+tiempo_viaje = int(input())
+velocidad_media = int(input())
+
+distancia = tiempo_viaje * velocidad_media
+
+litros_combustible = distancia / 12
+
+print(f"{litros_combustible:.3f}")
